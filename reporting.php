@@ -4,7 +4,7 @@ ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
-
+// TEST.
 
 // 有多少紀錄？ 時間@IP
 // cat 20180222.phplog |awk '{ print $1}'|grep \@ |uniq|sort|wc -l
